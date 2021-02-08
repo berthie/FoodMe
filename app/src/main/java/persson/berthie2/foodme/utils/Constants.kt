@@ -1,4 +1,4 @@
-package persson.berthie2.foodme.Utils
+package persson.berthie2.foodme.utils
 
 class Constants {
 

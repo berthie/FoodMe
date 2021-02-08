@@ -1,4 +1,4 @@
-package persson.berthie2.foodme
+package persson.berthie2.foodme.data.network
 
 import persson.berthie2.foodme.models.FoodRecipe
 import retrofit2.Response
