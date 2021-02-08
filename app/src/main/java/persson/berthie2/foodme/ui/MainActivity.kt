@@ -1,14 +1,14 @@
-package persson.berthie2.foodme
+package persson.berthie2.foodme.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.NavController
-import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import kotlinx.android.synthetic.main.activity_main.*
+import persson.berthie2.foodme.R
 
 class MainActivity : AppCompatActivity() {
 
@@ -26,9 +26,9 @@ class MainActivity : AppCompatActivity() {
 //        val navController: NavController = findNavController(R.id.navHostFragment)
         val appBarConfiguration: AppBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.recipesFragment,
-                R.id.favoriteRecipesFragment,
-                R.id.foodJokeFragment
+                    R.id.recipesFragment,
+                    R.id.favoriteRecipesFragment,
+                    R.id.foodJokeFragment
             )
         )
         bottomNavigationView.setupWithNavController(navController)
